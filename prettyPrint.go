@@ -10,7 +10,7 @@ import (
 type mapObj map[float64][]float64
 
 // Takes a MAP object and pretty Print it
-func goPretty(data mapObj) {
+func Pretty(data mapObj) {
 	convertedData := make(map[string]any)
 
 	for k,v := range data {
